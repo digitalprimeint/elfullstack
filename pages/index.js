@@ -28,7 +28,7 @@ export default function Home() {
             <Descriptions.Item label="Email">dellasera@gmail.com</Descriptions.Item>
             <Descriptions.Item label="País">Panamá</Descriptions.Item>
             <Descriptions.Item label="LinkedIn">https://www.linkedin.com/in/dellasera</Descriptions.Item>
-            <Descriptions.Item label="CV"><a href="https://resume2022pty.s3.us-west-2.amazonaws.com/Marco-Castillo-Resume-2022.pdf" target="_blank" rel="noreferrer">Bajar CV en PDF (Inglés)</a></Descriptions.Item>
+            <Descriptions.Item label="CV"><a href="https://resume2022pty.s3.us-west-2.amazonaws.com/Marco-Castillo-Resume-2022.pdf" target="_blank" rel="noreferrer">Formato PDF (Inglés)</a></Descriptions.Item>
           </Descriptions>
         </Col>
       </Row>
