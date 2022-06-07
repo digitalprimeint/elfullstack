@@ -6,4 +6,3 @@ app:
 app-deploy:
   app: elfullstack-app
   image: ghcr.io/digitalprimeint/elfullstack:master
-  port: 9898
