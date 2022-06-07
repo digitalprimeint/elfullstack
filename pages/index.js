@@ -27,7 +27,7 @@ export default function Home() {
             <Descriptions.Item label="Nombre completo">Marco A. Castillo Della Sera</Descriptions.Item>
             <Descriptions.Item label="Email">dellasera@gmail.com</Descriptions.Item>
             <Descriptions.Item label="País">Panamá</Descriptions.Item>
-            <Descriptions.Item label="LinkedIn">https://www.linkedin.com/in/dellasera</Descriptions.Item>
+            <Descriptions.Item label="LinkedIn"><a href="https://www.linkedin.com/in/dellasera" target="_blank" rel="noreferrer">Abrir Perfil</a></Descriptions.Item>
             <Descriptions.Item label="CV"><a href="https://resume2022pty.s3.us-west-2.amazonaws.com/Marco-Castillo-Resume-2022.pdf" target="_blank" rel="noreferrer">Download PDF (Inglés)</a></Descriptions.Item>
           </Descriptions>
         </Col>
