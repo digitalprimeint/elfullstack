@@ -20,6 +20,6 @@
     "eslint-config-next": "12.1.6"
   },
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://ghcr.io"
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
   }
 }
