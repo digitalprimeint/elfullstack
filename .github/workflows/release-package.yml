@@ -44,3 +44,16 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+  deploy_prod:
+    runs-on: ubuntu-latest
+    name: Deploy Production Apps
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Deploy Prod Application
+        uses: shipa-corp/shipa-gh-action@0.0.1
+        env:
+          SHIPA_TOKEN: ${{ secrets.SHIPA_TOKEN }}
+          SHIPA_HOST: ${{ secrets.SHIPA_HOST }}
+        with:
+          shipa-action: './shipa.app.yaml'

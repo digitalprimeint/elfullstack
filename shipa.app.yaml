@@ -1,0 +1,9 @@
+app:
+  name: elfullstack-app
+  teamowner: shipa-team
+  framework: elfullstack
+
+app-deploy:
+  app: elfullstack-app
+  image: ghcr.io/digitalprimeint/elfullstack:master
+  port: 9898
